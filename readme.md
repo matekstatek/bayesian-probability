@@ -31,8 +31,8 @@ $$P(C|A,B) \cdot P(A)\cdot P(B)+P(C| \neg A,B)\cdot [1-P(A)] \cdot P(B)+P(C|A, \
 $$0,9 \cdot 0,8 \cdot 0,3+0,4 \cdot 0,2 \cdot 0,3+0,7 \cdot 0,8 \cdot 0,7+0,2 \cdot 0,2 \cdot 0,7=0,66$$
 
 ## $P(A, \neg B, C | \neg D, \neg E)$ continued
-$$P(A, \neg B, C | \neg D, \neg E)={\sout{P(\neg E | \neg D)} \cdot P(\neg D | C) \cdot P(C | A, \neg B) \cdot P(A) \cdot P(\neg B) \over 
-\sout{P(\neg E | \neg D)} \cdot [P(\neg D | C) \cdot P(C) + P(\neg D | \neg C) \cdot P(\neg C)]}=$$
+$$P(A, \neg B, C | \neg D, \neg E)={P(\neg E | \neg D) \cdot P(\neg D | C) \cdot P(C | A, \neg B) \cdot P(A) \cdot P(\neg B) \over 
+P(\neg E | \neg D) \cdot [P(\neg D | C) \cdot P(C) + P(\neg D | \neg C) \cdot P(\neg C)]}=$$
 
 $${[1-P(D | C)] \cdot P(C | A, \neg B) \cdot P(A) \cdot [1-P(B)] \over [1-P( D | C)] \cdot P(C) + [1-P(D | \neg C)] \cdot [1-P(C)]}=$$
 
